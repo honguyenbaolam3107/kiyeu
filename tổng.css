@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+nav{
+    background-color:darkgreen;
+    padding: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+    text-align: right;
+}
+li{
+    display: inline-flex;
+    margin: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+a:hover {
+    background-color:rgb(102, 204, 0);
+    transform: scale(1.2);
+}
+table {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width : 80%;
+    margin: 0 auto;
+    border-collapse: collapse;  
+}
+.highlight {
+    background-color: lightblue; 
+    font-weight: bold; 
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+body {
+    font-family: Times New Roman, sans-serif;
+    text-align: none;
+}
+
+.line3{
+    font-size: 35px;
+    
+}
+
+.line1{
+    text-align: center;
+    color:crimson;
+    font-size: 50px;
+}
+.line2{
+    font-size: 23px;
+}
+#v1{
+    font-size: 27px;
+    color:rgb(0, 0, 192);
+}
+.photo{
+    text-align: center;
+}
+.photo2{
+    text-align: center;
+    display :inline-flex;
+}
+figcaption{
+    font-size: 23px;
+    font-style: italic;
+    text-align: center;
+}
+.tieude{
+    text-align: center;
+    font-size: 70px;
+    color:crimson;
+}
+.nam{
+    text-align: center;
+}
+.vid{
+    text-align: center;
+}
